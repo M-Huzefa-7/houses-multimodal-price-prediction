@@ -58,6 +58,4 @@ The approach combines **CNN-based image feature extraction (MobileNetV2)** with 
 - Pandas, NumPy, Matplotlib, Seaborn  
 - Joblib  
 
----
 
-## Project Structure

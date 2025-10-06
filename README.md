@@ -9,11 +9,13 @@ The approach combines **CNN-based image feature extraction (MobileNetV2)** with 
 ## Methodology / Approach
 
 ### 1. Dataset
+- Housing Sales Dataset + Custom Image Dataset (your own or any public source) Recommended emanhamed/Houses-dataset
 - Structured/tabular features: `bedrooms`, `bathrooms`, `area`, `zipcode`  
 - Image features: 4 images per house from `Houses-dataset/Houses Dataset/`  
 - Preprocessing:
   - Numeric: median imputation + standard scaling  
-  - Categorical: most frequent imputation + one-hot encoding  
+  - Categorical: most frequent imputation + one-hot encoding
+  -  
 
 ### 2. Tabular Preprocessing
 - `ColumnTransformer` for combined numeric & categorical pipelines  
@@ -57,5 +59,6 @@ The approach combines **CNN-based image feature extraction (MobileNetV2)** with 
 - Scikit-learn  
 - Pandas, NumPy, Matplotlib, Seaborn  
 - Joblib  
+
 
 
